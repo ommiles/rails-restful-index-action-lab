@@ -1,6 +1,6 @@
 class Students < ActionController::Base
 
     def index
-        @students = Students.all 
+        @students = Student.all 
     end
 end
