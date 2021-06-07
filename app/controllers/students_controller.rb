@@ -1,6 +1,6 @@
 class Students < ActionController::Base
 
-    def thing
-        puts "This is the thing method."
+    def index
+        puts "This is the index method."
     end
 end
