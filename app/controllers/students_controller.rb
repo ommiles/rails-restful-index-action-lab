@@ -1,6 +1,6 @@
 class Students < ActionController::Base
 
     def index
-        puts "This is the index method."
+        @students = Students.all 
     end
 end
